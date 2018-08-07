@@ -30,6 +30,8 @@ default: &default
 development:
   <<: *default
   database: bncc_development
+    # database: db/development.sqlite3
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -94,3 +96,8 @@ production:
   database: bncc_production
   username: bncc
   password: <%= ENV['BNCC_DATABASE_PASSWORD'] %>
+
+
+  # production:
+  # <<: *default
+  # database: db/production.sqlite3
