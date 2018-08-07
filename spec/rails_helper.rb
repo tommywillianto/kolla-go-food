@@ -70,7 +70,7 @@ RSpec.configure do |config|
     DatabaseCleaner.cleaning do
       example.run
     end
-    # Faker::UniqueGenerator.clear
+    Faker::UniqueGenerator.clear
   end
 
   config.include FactoryGirl::Syntax::Methods
