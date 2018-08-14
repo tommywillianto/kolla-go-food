@@ -5,17 +5,18 @@
 .store {
   h1 {
     margin: 0;
+    margin-top: 32px;
     padding-bottom: 0.5em;
     font: 150% sans-serif;
-    color: #226;
-    border-bottom: 3px dotted #77d;
+    color: #282;
+    border-bottom: 3px dotted #282;
   }
 
   /* An entry in our store catalogue */
   .entry {
     overflow: auto;
     margin-top: 1em;
-    border-bottom: 1px dotted #77d;
+    border-bottom: 1px dotted #282;
     min-height: 100px;
 
     img {
@@ -31,7 +32,7 @@
       margin-left: 100px;
       margin-top: 0;
       margin-bottom: 2px;
-      color: #227;
+      color: #282;
     }
 
     p, div.price_line {
@@ -41,7 +42,7 @@
     }
 
     .price {
-      color: #44a;
+      color: #282;
       font-weight: bold;
       margin-right: 3em;
     }
